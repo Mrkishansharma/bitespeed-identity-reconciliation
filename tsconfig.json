@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Or the ECMAScript version you prefer
+    "module": "commonjs",
+    "outDir": "./dist", // Output directory for compiled JavaScript
+    "rootDir": "./src", // Source directory for TypeScript files
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
